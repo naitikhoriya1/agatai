@@ -14,6 +14,8 @@ const PizzaCarousel = () => {
     setCurrentIndex((prev) => (prev + 1) % pizzas.length);
   }, []);
 
+  
+
   const goToPrev = useCallback(() => {
     setDirection(-1);
     setCurrentIndex((prev) => (prev - 1 + pizzas.length) % pizzas.length);

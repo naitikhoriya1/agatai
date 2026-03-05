@@ -28,6 +28,7 @@ const slides: Slide[] = [
       'https://static.cdn-luma.com/files/sanity/af28ceee-9f30-4bb1-9e01-61622809c663.mp4#t=0.001',
   },
   {
+  
     id: 3,
     label: 'Advertising',
     video:
