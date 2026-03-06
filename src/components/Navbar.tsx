@@ -23,7 +23,7 @@ export default function Navbar() {
         
        <div className={`navbar-links ${isOpen ? "open" : ""}`}>
           <Link to="/features">Features</Link>
-          <Link to="/pricing">Pricing</Link>
+          <Link to="/blog" className='blog-btn'>Blog</Link>
           <Link to="/Career" className="login-btn">Career</Link>
           <Link to="/login" className="login-btn">Login</Link>
         </div>

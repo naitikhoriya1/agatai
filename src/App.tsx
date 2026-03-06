@@ -4,6 +4,7 @@ import Career from "./pages/Career";
 import "./App.css";
 import Navbar from './components/Navbar';
 import Login from "./pages/Login";
+import Blog from "./pages/Blog";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/career" element={<Career />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/blog" element={<Blog />} />
 
         </Routes>
     </div>
