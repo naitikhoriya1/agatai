@@ -43,7 +43,6 @@ export default function Career() {
                     We believe real-world physics is the path to general intelligence.
                     We unite research, product, and go-to-market into one engine.
                 </p>
-                <button>See open roles</button>
             </section>
 
 
@@ -121,17 +120,36 @@ export default function Career() {
             <h2>Our Hiring Process</h2>
 
             <div className="process-grid">
-                <div className="process-steps">
+                <div className="process-step">
                     <h3>1.Apply</h3>
                     <p>Submit your application and portfolio.</p>
                 </div>
 
-                <div className="process-steps">
-
+                <div className="process-step">
+                    <h3>2. Screening</h3>
+                    <p>Our team reviews your experience and skills.</p>
                 </div>
 
-            </div>
+                <div className="process-step">
+                    <h3>3. Interview</h3>
+                    <p>Technical and interviews with our team.</p>
+                </div>
 
+                <div className="process-step">
+                    <h3>4. Offer</h3>
+                    <p>If selected, we send an offer and welcome you onboard.</p>
+                </div>
+            </div>
+        </section>
+
+        {/* final cta */}
+        <section className="career-cta">
+            <h2>Ready to Join Us?</h2>
+            <p>
+                Explore exiciting opportunities and become part of a team building
+                the future of AI-driven Innovation.
+            </p>
+            <button>View Open Positions</button>
         </section>
 
 

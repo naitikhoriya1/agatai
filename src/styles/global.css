@@ -220,12 +220,13 @@ section {
 /* ===== PIZZA CAROUSEL ===== */
 .pizza-carousel {
   position: relative;
+  width: 100%;               /* ensure the container stretches */
   min-height: 90vh;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #000000;
+  background: #000;
   padding-bottom: 5rem;
  
 }
@@ -278,19 +279,27 @@ section {
 .nav-button {
   position: absolute;
   bottom: 120px;
-  background: rgb(255, 255, 255);
-  border-radius: 999px;
+  background: #fff;
+  border-radius: 50%;
   padding: 0.6rem;
   z-index: 30;
+  cursor: pointer;
+  display: flex;             /* centre the SVG */
+  align-items: center;
+  justify-content: center;
 }
 
-.nav-button.left { left: 24px; }
-.nav-button.right { right: 24px; }
+/* only needed if the arrow orientation ever gets flipped */
+.nav-button.left  svg { transform: none; }
+.nav-button.right svg { transform: none; }
 
-
+/* you could also “flip” them manually:
+.nav-button.left  svg { transform: rotateY(180deg); }
+.nav-button.right svg { transform: rotateY(180deg); }
+*/
 
 /* home bottom description */
-/* Dream Machine FAQ Styles */
+Dream Machine FAQ Styles
 .dream-machine-faq {
   padding: 80px 20px;
   background: white;

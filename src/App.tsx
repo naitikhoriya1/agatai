@@ -5,6 +5,7 @@ import "./App.css";
 import Navbar from './components/Navbar';
 import Login from "./pages/Login";
 import Blog from "./pages/Blog";
+import SoftwareEnquiry from "./pages/SoftwareEnquiry";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/career" element={<Career />} />
           <Route path="/login" element={<Login />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/enquiry" element={<SoftwareEnquiry />} />
 
         </Routes>
     </div>
