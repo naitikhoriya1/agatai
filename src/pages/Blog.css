@@ -24,8 +24,9 @@
     color: rgb(255, 255, 255);
 }
 .blog-tag{
-    background: #a4a3a3;
+    background: #717070;
     padding: 6px 2px;
+    width: 100px;
     border-radius: 10px;
     font-size: 20px;
 }
@@ -37,7 +38,7 @@
 }
 
 .blog-hero p{
-    color: #e1d4d4;
+    color: #ffffff;
     max-width: 600px;
     
 }
