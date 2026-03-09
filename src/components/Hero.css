@@ -89,6 +89,8 @@
   font-weight: 600;
   cursor: pointer;
   border: none;
+  margin-left: 2px;
+  margin-right: 2px;
   transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
@@ -113,6 +115,7 @@
 .hero-actions .secondary:hover {
   transform: translateY(-2px);
   opacity: 0.85;
+  transition: 0.8s;
   background: rgb(159, 159, 159);
   color: black;
 }
