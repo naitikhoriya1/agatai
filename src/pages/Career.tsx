@@ -82,6 +82,21 @@ export default function Career() {
               work-life balance.
             </p>
           </div>
+
+          <div className="benefit-card">
+            <h3>Competitive Compensation</h3>
+            <p>
+            Attractive salary packages, equity options, and comprehensive benefits.
+            </p>
+           </div>
+
+        <div className="benefit-card">
+            <h3>Impactful Work</h3>
+         <p>
+              Build products that leverage AI to solve real‑world challenges.
+            </p>
+        </div>
+
         </div>
       </section>
 

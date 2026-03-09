@@ -1,4 +1,9 @@
 import "./OnlineClasses.css";
+import heroImg from '../assets/online-class/online-hero.jpg';
+import reactImg from '../assets/online-class/React-JSi.jpg';
+import uiuxImg from '../assets/online-class/UI-UX-Design.jpg';
+import AIImg from '../assets/online-class/Artificial intelligence (AI).jpg';
+
 
 export default function OnlineClasses() {
   return (
@@ -21,21 +26,21 @@ export default function OnlineClasses() {
         <div className="course-grid">
 
           <div className="course-card">
-            <img src="/images/react.jpg" alt="React Course"/>
+            <img src={reactImg} alt="React Course"/>
             <h3>React Development</h3>
             <p>Build modern web apps using React and TypeScript.</p>
             <button>View Course</button>
           </div>
 
           <div className="course-card">
-            <img src="/images/ai.jpg" alt="AI Course"/>
+            <img src={AIImg} alt="AI Course"/>
             <h3>Artificial Intelligence</h3>
             <p>Learn machine learning and AI fundamentals.</p>
             <button>View Course</button>
           </div>
 
           <div className="course-card">
-            <img src="/images/uiux.jpg" alt="UIUX"/>
+            <img src={uiuxImg} alt="UIUX"/>
             <h3>UI/UX Design</h3>
             <p>Design user-friendly and modern interfaces.</p>
             <button>View Course</button>

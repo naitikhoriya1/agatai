@@ -170,20 +170,22 @@ margin-bottom:50px;
 
 /* GRID */
 
-.benefit-grid{
-display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:25px;
-max-width:1200px;
-margin:auto;
+.benefit-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 40px);
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
 }
 
-.benefit-card{
-background:white;
-padding:30px;
-border-radius:14px;
-box-shadow:0 5px 20px rgba(0,0,0,0.08);
-transition:0.3s;
+.benefit-card {
+    
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
 }
 
 .benefit-card:hover{

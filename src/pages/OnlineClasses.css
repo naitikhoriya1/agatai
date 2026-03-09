@@ -10,17 +10,23 @@ text-align:center;
 padding:100px 20px;
 background:#f5f7ff;
 border-radius:12px;
+
+ background-image: url("../assets/online-class/online-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .classes-hero h1{
 font-size:42px;
 margin-bottom:20px;
+color: #f5f7ff;
 }
 
 .classes-hero p{
 max-width:600px;
 margin:auto;
-color:#555;
+color:antiquewhite;
 margin-bottom:30px;
 }
 
@@ -49,7 +55,7 @@ margin-top:40px;
 }
 
 .course-card{
-background:white;
+background:rgb(218, 217, 217);
 padding:20px;
 border-radius:14px;
 box-shadow:0 8px 25px rgba(0,0,0,0.08);
