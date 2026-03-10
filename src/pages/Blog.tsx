@@ -23,6 +23,56 @@ export default function Blog(){
             </div>
         </section>
 
+
+
+        {/* blog news */}
+        <section className="news-section">
+
+        <div className="news-grid">
+
+          <div className="news-card">
+            <img src="" />
+            <h3>React Development</h3>
+            <p>Build modern web apps using React and TypeScript.</p>
+          </div>
+
+          <div className="news-card">
+            <img src="" />
+            <h3>Artificial Intelligence</h3>
+            <p>Learn machine learning and AI fundamentals.</p> 
+          </div>
+
+          <div className="news-card">
+            <img src="" />
+            <h3>UI/UX Design</h3>
+            <p>Design user-friendly and modern interfaces.</p>
+          </div>
+
+          <div className="news-card">
+            <img src="" />
+            <h3>UI/UX Design</h3>
+            <p>Design user-friendly and modern interfaces.</p>
+          </div>
+
+          <div className="news-card">
+            <img src="" />
+            <h3>UI/UX Design</h3>
+            <p>Design user-friendly and modern interfaces.</p>
+          </div>
+
+          <div className="news-card">
+            <img src="" />
+            <h3>UI/UX Design</h3>
+            <p>Design user-friendly and modern interfaces.</p>
+          </div>
+
+          
+
+
+        </div>
+
+        </section>
+
         {/* CONTENT AREA */}
       <section className="blog-content">
 
@@ -99,59 +149,7 @@ export default function Blog(){
           </div>
 
         </div>
-
-
-        {/* SIDEBAR */}
-        <div className="blog-sidebar">
-
-          <h3>Featured</h3>
-
-          <div className="featured-item">
-            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800" />
-            <div>
-              <span>August 7, 2017</span>
-              <p>Top Hidden Gems: Must-Visit Spots This Year</p>
-            </div>
-          </div>
-
-          <div className="featured-item">
-            <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d" />
-            <div>
-              <span>March 23, 2013</span>
-              <p>Bucket List: 25 Adventures for Every Traveler</p>
-            </div>
-          </div>
-
-          <div className="featured-item">
-            <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429" />
-            <div>
-              <span>May 31, 2015</span>
-              <p>Travel Like a Local: Tips for Authentic Experiences</p>
-            </div>
-          </div>
-
-
-          <div className="featured-item">
-            <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429" />
-            <div>
-              <span>May 31, 2015</span>
-              <p>Travel Like a Local: Tips for Authentic Experiences</p>
-            </div>
-          </div>
-
-
-          <div className="featured-item">
-            <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429" />
-            <div>
-              <span>May 31, 2015</span>
-              <p>Travel Like a Local: Tips for Authentic Experiences</p>
-            </div>
-          </div>
-
-        </div>
-
       </section>
-
     </div>
 
     

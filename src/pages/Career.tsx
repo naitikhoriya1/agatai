@@ -37,9 +37,14 @@ export default function Career() {
   </video>
 </section>
 
+<hr className="section-divider" />
+
             <section className="career-details">
-                
+            <div className="career-title-row">
                 <h1>We are building a new kind of mind</h1>
+                <button className="career-btn">Join Our Team</button>
+            </div>
+                
                 <p>
                     We believe real-world physics is the path to general intelligence.
                     We unite research, product, and go-to-market into one engine.
@@ -57,63 +62,114 @@ export default function Career() {
     playsInline
     className="career-video-player"
   >
-    <source src="https://static.cdn-luma.com/files/a1ecc8588bca8e63/careers-hero-video.mp4#t=0.001" type="video/mp4" />
+    <source src="https://videos.pexels.com/video-files/25744121/11904048_2560_1440_25fps.mp4" type="video/mp4" />
   </video>
 </section>
 
+{/* details of the company */}
+<section className="career-comp">
+
+            <div className="process-comp">
+                <div className="comp-step">
+                   <h2>Team Members</h2>
+                    <h3>150+</h3>
+                </div>
+
+                <div className="comp-step">
+                    <h2>Headquarters</h2>
+                    <h3>Palo Alto, CA</h3>
+                </div>
+
+                <div className="comp-step">
+                    <h2>Users worldwide</h2>
+                    <h3>30K+</h3>
+                </div>
+
+                <div className="comp-step">
+                    <h2>Total Funding</h2>
+                    <h3>$3M+</h3>
+                </div>
+            </div>
+        </section>
+
 
              {/* WHY WORK WITH US */}
-      <section className="career-benefits">
-        <h2>Why Work With Us</h2>
+      <section className="blog-content">
 
-        <div className="benefit-grid">
-          <div className="benefit-card">
-            <h3>Innovation</h3>
-            <p>
-              Work on cutting-edge technologies in AI, machine learning,
-              and scalable systems.
-            </p>
+        {/* LEFT BLOG GRID */}
+        <div className="blog-grid">
+
+          <div className="blog-card">
+            <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429" />
+            <div className="blog-overlay">
+              <span className="blog-category">AI Innovation</span>
+              <h3>he Future of Artificial Intelligence in Product Development</h3>
+              <p>
+                Artificial Intelligence is transforming how modern applications are built.
+                 
+              </p>
+            </div>
           </div>
 
-          <div className="benefit-card">
-            <h3>Growth</h3>
-            <p>
-              Continuous learning, mentorship, and opportunities to grow
-              your career.
-            </p>
+          <div className="blog-card">
+            <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485" />
+            <div className="blog-overlay">
+              <span className="blog-category">Machine Learning</span>
+              <h3>Building Scalable Machine Learning Systems </h3>
+              <p>
+                Machine learning models are powerful, 
+                but deploying them efficiently is the real challenge.
+              </p>
+            </div>
           </div>
 
-          <div className="benefit-card">
-            <h3>Global Team</h3>
-            <p>
-              Collaborate with talented developers and designers from
-              around the world.
-            </p>
+          <div className="blog-card">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" />
+            <div className="blog-overlay">
+              <span className="blog-category">Data Science</span>
+              <h3>Turning Data Into Business Intelligence</h3>
+              <p>
+                Organizations generate massive amounts of data every day
+              </p>
+            </div>
           </div>
 
-          <div className="benefit-card">
-            <h3>Flexible Work</h3>
-            <p>
-              Remote-friendly environment with flexible schedules and
-              work-life balance.
-            </p>
+
+          <div className="blog-card">
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa" />
+            <div className="blog-overlay">
+              <span className="blog-category">Cloud Technology</span>
+              <h3>Cloud Infrastructure for Modern AI Applications</h3>
+              <p>
+                Cloud platforms allow developers to build scalable and reliable AI applications.
+              </p>
+            </div>
           </div>
 
-          <div className="benefit-card">
-            <h3>Competitive Compensation</h3>
-            <p>
-            Attractive salary packages, equity options, and comprehensive benefits.
-            </p>
-           </div>
+          <div className="blog-card">
+            <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f" />
+            <div className="blog-overlay">
+              <span className="blog-category">Software Development</span>
+              <h3>Building Scalable Applications for the Future</h3>
+              <p>
+                Modern software development focuses on scalability, performance, and user experience.
+              </p>
+            </div>
+          </div>
 
-        <div className="benefit-card">
-            <h3>Impactful Work</h3>
-         <p>
-              Build products that leverage AI to solve real‑world challenges.
-            </p>
+          <div className="blog-card">
+            <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3" />
+            <div className="blog-overlay">
+              <span className="blog-category">Cybersecurity</span>
+              <h3>Securing AI Systems in the Digital Era</h3>
+              <p>
+                As AI systems become more powerful, cybersecurity becomes critical.
+              </p>
+            </div>
+          </div>
+
         </div>
 
-        </div>
       </section>
 
 
