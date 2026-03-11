@@ -37,22 +37,20 @@
 }
 
 
-.career-hero{
-    text-align: center;
-    padding: 80px 20px;
-}
+/* bkur text */
+.hero-title{
+   display: flex;
+  justify-content: center;   /* horizontal center */
+  align-items: center;       /* vertical alignment */
+  text-align: center;
+  color: #2d1f1f;
 
-.career-hero h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    margin-bottom: 1rem ;
-}
+  font-size: 80px;
+  font-weight: 700;
+  width: 100%;
+  margin: 30px auto;
+  padding-top: 5%;
 
-.career-hero p {
-    max-width: 600px;
-    margin: 0 auto;
-    font-size: 1.1rem;
-    opacity: 0.8;
 }
 
 .career-jobs {
@@ -334,4 +332,18 @@ width:fit-content;
 .career-cta button:hover{
 background:#414141;
 font-weight: 600;
+}
+
+
+
+/* circular gallery */
+.circular-gallery {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: grab;
+}
+
+.circular-gallery:active {
+  cursor: grabbing;
 }

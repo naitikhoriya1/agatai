@@ -1,5 +1,6 @@
 .blog-page{
     padding: 10px ;
+    padding-top: 100px;
     background: #ffffff ;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,6 +9,7 @@
     text-align: center;
     margin-bottom: 90px;
     padding: 90px 30px;
+    padding-top: 100px;
     height: 600px;
 
     background-image: url("../assets/blog-backgrouund.jpg");
@@ -191,11 +193,11 @@ margin-top:40px;
 }
 
 .news-card{
-background:rgb(242, 242, 242);
+background:rgb(214, 214, 214);
 padding:20px;
 border-radius:10px;
 box-shadow:0 8px 25px rgba(0,0,0,0.08);
-transition:0.3s;
+transition:0.7s;
 min-height: 420px;
 }
 

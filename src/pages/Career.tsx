@@ -1,4 +1,6 @@
 import "./Career.css";
+import BlurText from "../pages/BlurText";
+import CircularGallery from '../pages/CircularGallery';
 
 
 export default function Career() {
@@ -13,17 +15,34 @@ export default function Career() {
                 {/* all page content */}
               </div>
 
+        
+       
+               <BlurText
+          text="Build The Future Of Imagination"
+          delay={150}
+          animateBy="letters"
+          direction="top"
+         className="hero-title"
+        />
 
-            <section className="career-hero">
-                <h1>Build The Future With Us</h1>
-                <p>
-                    Join our team of developers, designers, and innovators building
-                    scalable digital solutions.
-                </p>
-            </section>
+        
+              <div style={{ height: '600px', position: 'relative' }}>
+              <CircularGallery
+                bend={1}
+                textColor="#ffffff"
+                borderRadius={0.05}
+                scrollSpeed={2}
+                scrollEase={0.05}
+                />
+              </div>
+        
+
+            
 
 {/* video section */}
             <section className="career-video">
+
+
   <h2>Life at AIGETAI</h2>
 
   <video
