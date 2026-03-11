@@ -5,6 +5,9 @@ import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import videoBg from "../assets/videoplayback.mp4"; 
 import PizzaCarousel from "../components/PizzaCarousel";
+import CircularGallery from '../pages/CircularGallery';
+import OrbitImages from "./OrbitImages";
+
 import Service from "../components/Service";
 import webDevImg1 from "../assets/feature/source2.png";
 import webDevImg2 from "../assets/feature/source3.png";
@@ -42,6 +45,16 @@ const handleMouseDown = (e: React.MouseEvent<HTMLDivElement>) => {
   window.addEventListener("mouseup", onMouseUp);
 };
 
+
+const orbitImages = [
+    "https://picsum.photos/300/300?grayscale&random=1",
+  "https://picsum.photos/300/300?grayscale&random=2",
+  "https://picsum.photos/300/300?grayscale&random=3",
+  "https://picsum.photos/300/300?grayscale&random=4",
+  "https://picsum.photos/300/300?grayscale&random=5",
+  "https://picsum.photos/300/300?grayscale&random=6"
+];
+
   
 
 return (
@@ -59,13 +72,22 @@ return (
 
 {/* ===================== */}
 
-<section className="my-12 carousel-section">
-  <PizzaCarousel />
-</section>
+ <div style={{ height: '600px', position: 'relative' }}>
+              <CircularGallery
+                bend={1}
+                textColor="#ffffff"
+                borderRadius={0.05}
+                scrollSpeed={2}
+                scrollEase={0.05}
+                />
+              </div>
+
 
 <section className="my-24 carousel-section">
   <Service />
 </section>
+
+<hr className="section-divider" />
 
 {/* new headline section */}
 <section className="headline-section">
@@ -73,6 +95,30 @@ return (
     <p> We design and develop web apps, mobile applications, AI-powered systems, and custom software—delivering scalable, secure, and reliable solutions with ongoing support.</p>
 </section>
 
+
+
+
+{/* orbit images */}
+<section className="orbit-section">
+  <OrbitImages
+    images={orbitImages}
+    shape="ellipse"
+    radiusX={570}
+    radiusY={100}
+    rotation={-8}
+    duration={65}
+    itemSize={140}
+    responsive={true}
+    radius={160}
+    direction="normal"
+    fill
+    showPath
+    paused={false}
+  />
+</section>
+
+
+<hr className="section-divider" />
 
 
 <section className="services">
@@ -127,6 +173,12 @@ return (
 </section>
 
 
+{/* pizza carousile */}
+<section className="my-12 carousel-section">
+  <PizzaCarousel />
+</section>
+
+
 {/* Video Background Section */}
 <section className="video-section">
   <video
@@ -147,6 +199,7 @@ return (
     </div>
   </div>
 </section>
+
 
 
 
