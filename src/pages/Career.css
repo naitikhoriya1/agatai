@@ -209,80 +209,90 @@
 }
 
 /* Blog / Benefits Section */
-.blog-content {
+.career-blog-content {
   padding: 80px 40px;
   text-align: center;
 }
 
-.blog-content h2 {
+.career-blog-content h2 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 50px;
   color: #000;
 }
 
-.blog-grid {
+.career-blog-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem 1.4rem;
   max-width: 1200px;
   margin: 0 auto;
- 
 }
 
-.blog-card {
-  position: relative;
-  overflow: hidden;
-  border-radius: 12px;
-  height: 350px;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.blog-card:hover {
-  transform: translateY(-8px);
-}
-
-.blog-card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.blog-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.8));
+.career-blog-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(247, 247, 247, 0.96) 100%);
+  border: 1px solid #dedede;
+  border-radius: 24px;
+  box-shadow: 0 14px 26px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  padding: 30px;
-  color: white;
+  gap: 0.8rem;
+  overflow: hidden;
+  padding: 0.55rem 0.55rem 1rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.blog-category {
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
-  opacity: 0.8;
+.career-blog-card:hover {
+  box-shadow: 0 24px 34px rgba(0, 0, 0, 0.1);
 }
 
-.blog-card h3 {
-  margin: 10px 0;
-  font-size: 1.3rem;
+.career-blog-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.career-blog-card:hover img {
+  transform: scale(1.06);
+}
+
+
+.career-blog-overlay {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
   text-align: left;
+  padding: 0 0.42rem;
 }
 
-.blog-card p {
-  font-size: 0.95rem;
-  opacity: 0.9;
-  text-align: left;
-  line-height: 1.5;
+.career-blog-category {
+  border: 1.5px solid #686868;
+  border-radius: 999px;
+  color: #353535;
+  display: inline-flex;
+  font-size: 0.83rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0.36rem 0.76rem 0.4rem;
+  width: fit-content;
+}
+
+.career-blog-card h3 {
+  margin: 0;
+  font-size: clamp(1.06rem, 1.4vw, 1.4rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.career-blog-card p {
+  font-size: 0.94rem;
+  color: #4f4f4f;
+  line-height: 1.46;
+  margin: 0;
 }
 .career-comp{
 padding-top:20px;
@@ -448,7 +458,17 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .career-blog-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .career-details h1 {
     font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .career-blog-grid {
+    grid-template-columns: 1fr;
   }
 }
