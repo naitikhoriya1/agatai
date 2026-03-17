@@ -452,6 +452,14 @@ export default function Blog() {
 					</div>
 				)}
 			</section>
+
+      
+				<section className="subscribe-section" aria-label="News intro">
+					<p className="-kicker">Latest AI + Tech News</p>
+					<h1>Daily updates on AI breakthroughs, product launches, and engineering shifts</h1>
+				</section>
+
+
 		</main>
 	);
 }
