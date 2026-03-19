@@ -151,7 +151,7 @@ export default function Home() {
       {/* WEBSITE FAQ SECTION */}
       <FAQSection />
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
