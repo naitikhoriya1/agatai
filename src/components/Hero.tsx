@@ -96,7 +96,9 @@ export default function Hero() {
         </p>
 
         <div className="hero-actions">
-          <button className="primary">Start Your Project</button>
+          <button className="primary" onClick={() => navigate("/login")}>
+            Start Your Project
+          </button>
           <button className="secondary" onClick={() => navigate("/explore")}>
             Explore our work
           </button>
